@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* Reset
+================================================ */
+html, body, header, nav, article, section, time, footer, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, blockquote, table, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:#fefefe;
+}
+
+/* Layout
+================================================ */
+#wrap {
+  min-width: 980px;
+  text-align: center;
+}
+#wrap img{
+  vertical-align: bottom;
+}
+#content {
+  min-width: 980px;
+}
+
+.bg_gray01 {
+  background: #333;
+}
+.bg_gray02 {
+  background: #f5f5f5;
+}
+.bg_color01 {
+  background: #e7ddc4;
+}
+.bg_texture01 {
+  background: #eee url(../img/bg_texture01.png) repeat left top;
+}
+.bg_texture02 {
+  background: #eee url(../img/bg_texture02.gif) repeat left top;
+}
+.bg_texture03 {
+  background: #eee url(../img/bg_texture03.png) repeat left top;
+}
+.bg_texture04 {
+  background: #eee url(../img/bg_texture04.gif) repeat left top;
+}
+.bg_image01 {
+  background: #666 url(../img/bg_image01.jpg) no-repeat center;
+  background-size: cover;
+}
+.bg_image02 {
+  background: #666 url(../img/bg_image02.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+header {
+  height: 698px;
+  padding-top: 220px;
+}
+
+nav {
+  color: #fefefe;
+  font-size: 18px;
+  position: absolute;
+  top: 698px;
+  width: 100%;
+}
+nav ul {
+  width:980px;
+  margin:0 auto;
+}
+nav ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+nav ul li {
+  float:left;
+  margin-right: 48px;
+}
+nav ul li:last-child {
+  margin:0;
+}
+nav ul a {
+  display:block;
+  line-height:70px;
+  height:70px;
+  text-align:center;
+}
+nav ul a:hover {
+  text-decoration: underline;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+section {
+  padding-top: 69px;
+  padding-bottom: 80px;
+}
+#cnt_trouble {
+  margin-top: 70px;
+}
+#cnt_important, #cnt_difficult, #cnt_howto, #cnt_voice {
+  padding-top: 0;
+}
+#cnt_privilege {
+  padding: 60px 0 58px;
+}
+#cnt_map {
+  padding-bottom: 0;
+  margin-bottom: -8px;
+}
+#cnt_map img {
+  padding-bottom: 48px;
+}
+#cnt_applicatiopn {
+  padding-bottom: 0px;
+}
+#cnt_applicatiopn .btn {
+  margin: 40px 0 44px;
+}
+#cnt_applicatiopn .img_tel {
+  margin-bottom: 50px;
+}
+#cnt_banner {
+  padding-top: 0;
+}
+#cnt_banner a.bnr_subsidy01 img:hover {
+  opacity: 0.8;
+}
+#pageTop01 {
+  position: fixed;
+  right: 45px;
+  bottom: 45px;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+}
+#pageTop01 a img:hover {
+  opacity: 0.8;
+}
+#footer {
+  overflow: hidden;
+  font-size: 14px;
+}
+#footer .wrapper {
+  width: 980px;
+  margin: auto;
+  color: #fefefe;
+  line-height: 100px;
+  height: 100px;
+}

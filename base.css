@@ -1,0 +1,161 @@
+/* Reset
+=============================*/
+html, body, header, nav, article, time, footer, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h6, p, pre, blockquote, table, th, td {
+    margin: 0px;
+    padding: 0px;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+/* Layout
+=============================*/
+
+.wrap{
+    min-width: 980px;
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+}
+
+div p{
+    text-align: center;
+}
+
+.bg_img01{
+    height: 698px;
+    padding-top: 220px;
+    background: url(./assets/bg-img1.jpg) no-repeat center;
+    background-size: cover;
+    vertical-align: bottom;
+}
+
+.bg_gray01{
+    background-color: #333;
+}
+
+.bg_gray02{
+    background-color: #f5f5f5;
+}
+
+.bg_pink01{
+    background-color:pink;
+}
+
+.bg_color01{
+    background-color: #e7ddc4
+}
+
+section{
+    padding-top: 69px;
+    padding-bottom: 80px;
+}
+
+.cnt_important, .cnt_difficult, .cnt_howto, .cnt_voice,{
+    padding-top: 0px;
+}
+
+.cnt_privilege{
+    padding-top: 60px;
+    padding-bottom: 58px;
+}
+
+.cnt_content{
+    background-image: url(./assets/bg-img2.jpg);
+    background-position: 0% 70%;
+    background-attachment: fixed;
+}
+
+.cnt_map{
+    padding-bottom: 0px;
+}
+
+.cnt_map__image{
+    padding-bottom: 48px;
+}
+
+.app_btn{
+    margin: 44px 0px 40px;
+}
+
+nav {
+    color: #fefefe;
+    font-size: 18px;
+    position: absolute; /*?*/
+    top: 698px; /*?*/
+    width: 100%;
+    opacity: 1;
+}
+
+
+nav ul{
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* cannot unerstand what this mean 2019-01-06*/
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 48px;
+}
+nav ul li:last-child {
+    margin:0;
+  }
+
+
+nav ul a{
+    display: block;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+}
+
+#cnt_trouble{
+    margin-top: 70px;
+}
+
+#cnt_important, #cnt_howto, #cnt_voice{
+    padding-top: 0px;
+}
+
+#pageTop01{
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+}
+
+
+footer{
+    font-size: 14px;
+}
+
+.wrapper{
+    line-height: 100px;
+    color: #fefefe;
+    background-color: #333;
+
+}
